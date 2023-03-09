@@ -19,7 +19,7 @@ public class _01_Giris {
 
     // eger herhangi bir siralama verilmezse method isimlerinin alfabetik sirasina gore calisiyor
 
-    @Test(priority = 1)    // bu sekilde siralama verebiliyoruz
+    @Test(priority = 1)    // bu sekilde siralama verebiliyoruz   //bir sey vermezsen defoult 0 olur
     public void webSitesiniAc()
     {
         System.out.println("driver tanimlandi ve web sitesi acildi");
