@@ -47,11 +47,11 @@ public class _03_Assertions {
     }
 
     @Test
-    void direkFail()
+    void direktFail()
     {
         int a=55;
 
-        if(a==55)
+        if(a==55)  // if olmasa da olur burada
             Assert.fail();  // Assert.fail("hata olustu")  // mesajda yazilabilir buna
 
     }

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit ">
+    <test name="test 1">
+        <parameter name="mesaj" value="merhaba dunya tester dunyasi"></parameter>
+        <classes>
+            <class name="Gun04._04_ContactUs"></class>
+        </classes>
+    </test>
+</suite>

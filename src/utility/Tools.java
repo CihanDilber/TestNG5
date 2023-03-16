@@ -17,7 +17,7 @@ public class Tools {
 
     public  static void successMessageValidation()
     {
-        WebElement confirmation= BaseDriver.driver.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible']"));
-        Assert.assertTrue(confirmation.getText().toLowerCase().contains("success"));
+        WebElement msgLabel= BaseDriver.driver.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible']"));
+        Assert.assertTrue(msgLabel.getText().toLowerCase().contains("success"));
     }
 }
